@@ -1,0 +1,115 @@
+{
+  "info": {
+    "_postman_id": "341660ad-87d9-46e8-a281-cde63c5f3a4d",
+    "name": "MY Collection",
+    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+    "_exporter_id": "23225931"
+  },
+  "item": [
+    {
+      "name": "GET",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "https://jsonplaceholder.typicode.com/posts/1",
+          "protocol": "https",
+          "host": [
+            "jsonplaceholder",
+            "typicode",
+            "com"
+          ],
+          "path": [
+            "posts",
+            "1"
+          ]
+        }
+      },
+      "response": [
+        {
+          "name": "PUT",
+          "originalRequest": {
+            "method": "PUT",
+            "header": [
+              {
+                "key": "Content-Type",
+                "value": "application/json",
+                "type": "text"
+              }
+            ],
+            "body": {
+              "mode": "raw",
+              "raw": "{\r\n  \"id\": 1,\r\n  \"title\": \"Updated Title\",\r\n  \"body\": \"Updated Body\",\r\n  \"userId\": 1\r\n}",
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            },
+            "url": {
+              "raw": "https://jsonplaceholder.typicode.com/posts/1",
+              "protocol": "https",
+              "host": [
+                "jsonplaceholder",
+                "typicode",
+                "com"
+              ],
+              "path": [
+                "posts",
+                "1"
+              ]
+            }
+          },
+          "_postman_previewlanguage": "",
+          "header": [],
+          "cookie": [
+            {
+              "expires": "Invalid Date",
+              "domain": "",
+              "path": ""
+            }
+          ],
+          "body": ""
+        }
+      ]
+    },
+    {
+      "name": "POST",
+      "request": {
+        "auth": {
+          "type": "noauth"
+        },
+        "method": "POST",
+        "header": [
+          {
+            "key": "Content-Type",
+            "value": "application/json",
+            "type": "text"
+          }
+        ],
+        "body": {
+          "mode": "raw",
+          "raw": "{\"title\": \"QA Engineer\",\r\n  \"body\": \"Automation Testing\",\r\n  \"userId\": 1}\r\n",
+          "options": {
+            "raw": {
+              "language": "json"
+            }
+          }
+        },
+        "url": {
+          "raw": "https://jsonplaceholder.typicode.com/posts",
+          "protocol": "https",
+          "host": [
+            "jsonplaceholder",
+            "typicode",
+            "com"
+          ],
+          "path": [
+            "posts"
+          ]
+        }
+      },
+      "response": []
+    }
+  ]
+}
